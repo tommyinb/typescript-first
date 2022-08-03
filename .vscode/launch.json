@@ -4,6 +4,14 @@
     {
       "type": "node",
       "request": "launch",
+      "name": "Launch Dev",
+      "skipFiles": ["<node_internals>/**"],
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run-script", "dev"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
       "name": "Launch Start",
       "skipFiles": ["<node_internals>/**"],
       "runtimeExecutable": "npm",
