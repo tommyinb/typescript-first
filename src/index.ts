@@ -1,7 +1,4 @@
-export interface Abc {
-  a: string;
-  b: number;
-}
+import { Abc } from "./abc.js";
 
 const abc: Abc = {
   a: "abc",

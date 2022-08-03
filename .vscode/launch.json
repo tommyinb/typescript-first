@@ -2,15 +2,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "type": "pwa-node",
-      "request": "launch",
-      "name": "Launch Dev",
-      "skipFiles": ["<node_internals>/**"],
-      "runtimeExecutable": "npm",
-      "runtimeArgs": ["run-script", "dev"]
-    },
-    {
-      "type": "pwa-node",
+      "type": "node",
       "request": "launch",
       "name": "Launch Start",
       "skipFiles": ["<node_internals>/**"],
@@ -18,7 +10,7 @@
       "runtimeArgs": ["run-script", "start"]
     },
     {
-      "type": "pwa-node",
+      "type": "node",
       "request": "launch",
       "name": "Launch Test",
       "skipFiles": ["<node_internals>/**"],
