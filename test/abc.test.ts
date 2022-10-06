@@ -1,7 +1,7 @@
 import { expect } from "chai";
-import { Abc } from "../src/index";
+import { Abc } from "../src/abc.js";
 
-describe("index", () => {
+describe("Abc", () => {
   it("foo test", () => {
     const abc: Abc = {
       a: "test",
