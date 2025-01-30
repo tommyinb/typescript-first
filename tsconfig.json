@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "module": "ESNext",
+    "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "outDir": "dist",
     "strict": true,
@@ -10,8 +10,8 @@
     "declaration": true,
     "declarationMap": true,
     "esModuleInterop": true,
-    "lib": ["es2019"]
+    "lib": ["ESNext"]
   },
   "include": ["src"],
-  "exclude": ["dist", "test", "node_modules"]
+  "exclude": ["dist", "node_modules"]
 }
