@@ -1,4 +1,7 @@
-import { Abc } from "./abc.js";
+interface Abc {
+  a: string;
+  b: number;
+}
 
 const abc: Abc = {
   a: "start with TypeScript",

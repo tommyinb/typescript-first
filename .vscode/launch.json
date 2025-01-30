@@ -16,14 +16,6 @@
       "skipFiles": ["<node_internals>/**"],
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run-script", "start"]
-    },
-    {
-      "type": "node",
-      "request": "launch",
-      "name": "Launch Test",
-      "skipFiles": ["<node_internals>/**"],
-      "runtimeExecutable": "npm",
-      "runtimeArgs": ["run-script", "test"]
     }
   ]
 }
